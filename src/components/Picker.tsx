@@ -82,6 +82,7 @@ export const Picker = <T,>({
       indicatorColor={'transparent'}
       gestureEnabled={true}
       keyboardShouldPersistTaps="always"
+      isModal={false}
       {...actionsSheetProps}
     >
       <SafeAreaView
